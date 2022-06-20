@@ -67,31 +67,39 @@
 }
 
 
-/* regole section 2  */
+/* regole section 2, section 4  e parte di section 3 */
 
-.section2 {
+.section2, .section4, .section3 {
     padding: 45px 0 45px 0;
     background-color: rgb(255, 255, 254);
 }
 
-.section2 .container {
+.section2 .container, .section4 .container, .section3 .container {
     display: flex;
 }
 
-.section2 .col1 {
+.section2 .col1, .section4 .col1, .section3 .col1 {
     min-height: 490px;
     background-color: rgb(25, 105, 226);
     flex-basis: 60%;
 }
 
-.section2 .col2 {
+.section2 .col2, .section4 .col2, .section3 .col2 {
     min-height: 490px;
     background-color: rgb(255, 212, 253);
     flex-basis: 40%;
 }
 
 
+/* regole varianti section 3 */
 
+.section3 {
+    background-color: rgb(168, 168, 164);
+}
+
+.section3 .container {
+    flex-direction: row-reverse;
+}
 
 
 
