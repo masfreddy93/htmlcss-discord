@@ -102,6 +102,27 @@
 }
 
 
+/* regole section 5  */
+
+.section5 {
+    background-color: rgb(168, 168, 164);
+    padding: 45px 0 45px 0;
+}
+
+.section5 .container {
+    display: flex;
+}
+
+.section5 .col {
+    min-height: 868px;
+    background-color: rgb(73, 151, 76);
+    flex-basis: 100%;
+}
+
+
+
+
+
 
 
 
