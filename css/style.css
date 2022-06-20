@@ -1,5 +1,41 @@
+/* regole di reset */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+
+/* regole header  */
+
+.header {
+    background-color: rgb(126, 201, 211);
+    padding: 15px 0 15px 0;
+}
+
+.header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.header .col {
+    min-height: 34px;
+    background-color: rgb(208, 153, 34);
+    border: 1px dashed black;
+}
+
+.header .col1, .header .col3 {
+    flex-basis: 20%;
+}
+
+.header .col2 {
+    flex-grow: 1;
+}
+
+
+
+
+
