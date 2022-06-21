@@ -293,3 +293,19 @@ hr {
     background-color: rgb(134, 101, 211);
     color: white;
 }
+
+.footer1 .logo {
+    background: #3B5998;
+    padding: 5px;
+    border-radius: 8%;
+    background-color: white;
+    color: black;
+    text-align: center:
+      
+  }
+
+  .footer1 .social {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+  }
