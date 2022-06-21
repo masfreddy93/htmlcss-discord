@@ -20,12 +20,19 @@
 
 .row {
     display: flex;
+    align-items: center;
 }
 
-/* regole header  */
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+
+/* header  */
 
 .header {
-    background-color: rgb(126, 201, 211);
+    background-color: rgb(28, 105, 206);
     padding: 20px 0 20px 0;
 }
 
@@ -42,11 +49,33 @@
     flex-grow: 1;
 }
 
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: inherit;
+}
 
-/* regole section  */
+
+.header .col3 {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+.header .col3 a {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
 
 
-/* regole section 1 */
+/* SECTION  */
+
+
+/* section 1 */
 
 .section1 {
     padding: 45px 0;
@@ -54,8 +83,6 @@
 }
 
 .section1 .container {
-    /* display: flex;
-    justify-content: center; */
     max-width: 900px;
     margin: 0 auto;
 }
@@ -63,13 +90,10 @@
 .section1 .col {
     min-height: 387px;
     background-color: rgb(176, 108, 174);
-    /* flex-basis: 75%; */
-    /* NON OCCORREVA USARE IL FLEX IN QUESTO CASO, 
-    AVREMMO AVUTO PROBLEMI NEL RESTRINGERE LA PAGINA */
 }
 
 
-/* regole section 2, section 4  e parte di section 3 */
+/* section 2, section 4  e parte di section 3 */
 
 .section2, .section4, .section3 {
     padding: 45px 0;
@@ -89,7 +113,7 @@
 }
 
 
-/* regole varianti section 3 */
+/* varianti section 3 */
 
 .section3 {
     background-color: rgb(168, 168, 164);
@@ -100,7 +124,7 @@
 }
 
 
-/* regole section 5  */
+/* section 5  */
 
 .section5 {
     background-color: rgb(168, 168, 164);
@@ -115,7 +139,7 @@
 }
 
 
-/* regole footer  */
+/* footer  */
 
 .footer {
     background-color: rgb(31, 29, 29);
@@ -155,12 +179,3 @@
     min-height: 33px;
     min-width: 82px;
 }
-
-
-
-
-
-
-
-
-
