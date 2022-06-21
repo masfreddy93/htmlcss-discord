@@ -97,7 +97,7 @@ a {
     align-items: center; 
 }
 
-.section1 h1 {
+.section1 h2 {
     font-size: 56px;
     color: white;
 }
@@ -136,45 +136,83 @@ a {
 
 .section2, .section4, .section3 {
     padding: 45px 0;
-    background-color: rgb(255, 255, 254);
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
 }
 
 .section2 .col1, .section4 .col1, .section3 .col1 {
     min-height: 490px;
-    background-color: rgb(25, 105, 226);
     flex-basis: 60%;
 }
 
 .section2 .col2, .section4 .col2, .section3 .col2 {
     min-height: 490px;
-    background-color: rgb(255, 212, 253);
     flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.section2 .col2, .section4 .col2 {
+    padding-left: 150px;
+}
+
+.section2 h2, .section3 h2, .section4 h2 {
+    font-size: 48px;
+}
+
 
 
 /* varianti section 3 */
 
 .section3 {
-    background-color: rgb(168, 168, 164);
+    background-color: rgb(208 208 208);
 }
 
 .row-reversee {
     flex-direction: row-reverse;
 }
 
+.section3 .col2 {
+    padding-right: 150px;
+}
 
 /* section 5  */
 
 .section5 {
     background-color: rgb(168, 168, 164);
     padding: 45px 0 45px 0;
+    font-size: 24px;
 }
 
+.section5 h2 {
+    font-size: 56px;
+}
+
+.section5 h3 {
+    font-size: 34px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+
+.section5 p {
+    text-align: center;
+}
 
 .section5 .col {
     min-height: 868px;
-    background-color: rgb(73, 151, 76);
     flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section5 a {
+    padding: 7px 15px;
+    border-radius: 40%;
+    background-color: cornflowerblue;
+    color: white;
 }
 
 
