@@ -14,9 +14,9 @@
     margin: 0 auto;
 }
 
-.col, .logo, .button {
+/* .col, .logo, .button {
     border: 1px dashed black;
-}
+} */
 
 .row {
     display: flex;
@@ -28,6 +28,13 @@ a {
     color: white;
 }
 
+.download-button::before {
+    content: "\2193";
+}
+
+ul {
+    list-style-type: none;
+}
 
 /* header  */
 
@@ -39,7 +46,7 @@ a {
 
 .header .col {
     min-height: 34px;
-    background-color: rgb(208, 153, 34);
+    
 }
 
 .header .col1, .header .col3 {
@@ -51,7 +58,6 @@ a {
 }
 
 .header ul {
-    list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,7 +125,7 @@ a {
     width: 700px;
 }
 
-#download-button {
+.download-button {
     background-color: white;
     color: black;
 }
@@ -166,7 +172,7 @@ a {
 /* varianti section 3 */
 
 .section3 {
-    background-color: rgb(208 208 208);
+    background-color: rgb(231, 231, 231);
 }
 
 .row-reversee {
@@ -180,7 +186,7 @@ a {
 /* section 5  */
 
 .section5 {
-    background-color: rgb(168, 168, 164);
+    background-color: rgb(231, 231, 231);
     padding: 45px 0 45px 0;
     font-size: 24px;
 }
@@ -214,15 +220,18 @@ a {
 .section5 a {
     padding: 7px 15px;
     border-radius: 40%;
-    background-color: cornflowerblue;
+    background-color: rgb(134, 101, 211);
     color: white;
 }
+
 
 
 /* footer  */
 
 .footer {
     background-color: rgb(31, 29, 29);
+    font-size: 20px;
+    color: white;
 }
 
 .footer1 {
@@ -232,21 +241,14 @@ a {
 .footer1 .col {
     min-height: 536px;
     flex-basis: 16.6%;
-    background-color: rgb(98, 206, 206);
 }
 
 .footer1 .col1 {
     flex-grow: 1;
-    background-color: rgb(206, 112, 131);
 }
 
-
-.footer2 {
-    padding-top: 30px;
-}
 
 .footer2 .container {
-    background-color: aquamarine;
     padding: 18px 0;
 }
 
@@ -258,4 +260,36 @@ a {
     background-color: salmon;
     min-height: 33px;
     min-width: 82px;
+}
+
+.footer h4, .footer h3 {
+    color: rgb(134, 101, 211);
+}
+
+.footer li, .footer h4, .footer h3, .footer p {
+    padding-bottom: 24px;
+}
+
+.footer h3 {
+    font-size: 42px;
+}
+
+.footer .col1 p::before {
+    content: "🇮🇹";
+}
+
+.footer .col1 p::after {
+    content: "\2207";
+}
+
+hr {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer2 .button {
+    padding: 7px 15px;
+    border-radius: 40%;
+    background-color: rgb(134, 101, 211);
+    color: white;
 }
