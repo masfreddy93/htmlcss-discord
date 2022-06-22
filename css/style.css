@@ -36,6 +36,7 @@ ul {
     list-style-type: none;
 }
 
+
 /* header  */
 
 .header {
@@ -75,7 +76,7 @@ ul {
     background-color: white;
     color: black;
     padding: 8px;
-    border-radius: 50%;
+    border-radius: 40px;
 }
 
 
@@ -116,7 +117,7 @@ ul {
 .section1 a {
     font-size: 24px;
     padding: 15px;
-    border-radius: 40%;
+    border-radius: 40px;
 }
 
 .section1 .download-buttons {
@@ -219,7 +220,7 @@ ul {
 
 .section5 a {
     padding: 7px 15px;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color: rgb(134, 101, 211);
     color: white;
 }
@@ -275,11 +276,11 @@ ul {
 }
 
 .footer .col1 p::before {
-    content: "🇮🇹";
+    content: "🇮🇹 ";
 }
 
 .footer .col1 p::after {
-    content: "\2207";
+    content: " \2207";
 }
 
 hr {
@@ -289,19 +290,21 @@ hr {
 
 .footer2 .button {
     padding: 7px 15px;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color: rgb(134, 101, 211);
     color: white;
 }
 
 .footer1 .logo {
     background: #3B5998;
-    padding: 5px;
-    border-radius: 8%;
+    padding: 2px 8px;
+    border-radius: 40px;
     background-color: white;
     color: black;
-    text-align: center:
-      
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;      
   }
 
   .footer1 .social {
